@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
+import { Sufiyan } from './componets3/Sufiyan';
 import { TodoCompo } from './TodoCompo';
 
 function App() {
   return (
     <div className="App">
-      <TodoCompo />
-      <h1>This is h1 tag</h1>
+      {/* <TodoCompo /> */}
+      <Sufiyan/>
+      
     </div>
   );
 }
