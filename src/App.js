@@ -1,45 +1,13 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-import './App.css'
-import {yusuf} from './Component2/Yusuf'
-import {Counter} from './Component2/Counter/Counter'
+import "./App.css";
+import { Yusuf } from "./Component2/Yusuf";
+import { Counter } from "./Component2/Counter/Counter";
 
 function App() {
-return (
-      <div className='App'>
-=======
-// import logo from './logo.svg';
-import './App.css';
-import { Sufiyan } from './componets3/Sufiyan';
-<<<<<<< HEAD
-=======
-import { Yusuf } from './Component2/Yusuf';
-import { Khuzi } from './Component1/Khuzi';
->>>>>>> c86192610d643c9b5763a0f5972451b652c687da
-import { TodoCompo } from './TodoCompo';
-import {Ibrahim} from "./Components4/Ibrahim"
-=======
-import './App.css'
-import { Sufiyan } from './componets3/Sufiyan'
-import { ToDoList } from './componets3/ToDoList'
->>>>>>> 505a196a1a636e68a9230b000e9a0f71c4c4e896
-
-function App(){
-  return(
-    <div className='App'>
-      <Sufiyan/>
-      <ToDoList/>
-
+  return (
+    <div className="App">
+      <Counter />
+      <Yusuf/>
     </div>
-  )
+  );
 }
-<<<<<<< HEAD
->>>>>>> 18acd805e67e4d3797a32fff4fb04111c24bbb91
-
-            <Counter/>
-      </div>
-)      
-}
-=======
->>>>>>> 505a196a1a636e68a9230b000e9a0f71c4c4e896
-export default App;
+export default App

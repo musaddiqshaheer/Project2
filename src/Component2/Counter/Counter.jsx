@@ -7,10 +7,8 @@ export const Counter = () => {
  
   const counterAdjust=(value)=>{
     
-     setCount(count+value )
-    
+     setCount(count+value)
   }
-
 
   return (
     <div>
